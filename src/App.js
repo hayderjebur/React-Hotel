@@ -14,7 +14,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/rooms" exact component={Rooms} />
-        <Route path="/rooms/:id" exact component={SingleRoom} />
+        <Route path="/rooms/:slug" exact component={SingleRoom} />
         <Route component={Error} />
       </Switch>
     </Fragment>
